@@ -1,3 +1,13 @@
+---
+name: "tagged-release"
+env:
+  APP_NAME: static
+
+on:
+  push:
+    tags:
+      - "v*"
+      
 jobs:
   tagged-release:
     name: "Tagged Release"
