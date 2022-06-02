@@ -1,10 +1,10 @@
 #!/bin/sh
 #Ce script devrait fonctionner
-DIR="$( cd "$(dirname "$0")" ; pwd -P )"
-java -cp "$DIR/../lib/*" Main "$@"
+#DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+#java -cp "$DIR/../lib/*" Main "$@"
 
 #Script pour ceux dont le pc a le cancer
-#cd "$(dirname "$0")"
-#cd ..
+cd "$(dirname "$0")"
+cd ..
 
-#java -cp "lib/*" "Main" "$@"
+java -cp "lib/*" "Main" "$@"

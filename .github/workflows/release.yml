@@ -36,6 +36,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
-            LICENSE.md
+            LICENSE
             *.jar
             javadoc.zip
