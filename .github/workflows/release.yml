@@ -34,7 +34,7 @@ jobs:
       - name: Upload files to release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          automatic_release_tag: $RELEASE_VERSION
+          automatic_release_tag: "$RELEASE_VERSION"
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
