@@ -30,7 +30,7 @@ jobs:
         
         
       - name: Zip all files together
-        run zip -r Release.zip javadoc.zip LICENSE *.jar javadoc.zip
+        run: zip -r Release.zip javadoc.zip LICENSE *.jar javadoc.zip
       
       
       - name: Upload files to release
@@ -40,6 +40,4 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
-            LICENSE
-            *.jar
-            javadoc.zip
+            Release.zip
