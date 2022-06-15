@@ -28,14 +28,14 @@ jobs:
       - name: Zip javadoc files
         run: zip -r javadoc.zip target/site/apidocs/
         
+      - name: Zip all files together
+        run: zip -r Realease.zip LICENSE *.jar javadoc.zip
     
       - name: Upload files to release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          automatic_release_tag: Release ${{ github.ref }}
+          automatic_release_tag: Release
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
-            LICENSE
-            *.jar
-            javadoc.zip
+            Release.zip
