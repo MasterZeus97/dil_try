@@ -29,11 +29,10 @@ jobs:
         run: zip -r javadoc.zip target/site/apidocs/
       
       
-      - name: Upload files to release
-        uses: "marvinpinto/action-automatic-releases@latest"
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          automatic_release_tag: Release1
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
           prerelease: false
           files: |
             javadoc.zip 
