@@ -27,10 +27,6 @@ jobs:
 
       - name: Zip javadoc files
         run: zip -r javadoc.zip target/site/apidocs/
-        
-        
-      - name: Zip site exemple
-        run: zip -r monSite.zip monSite
       
       
       - name: Upload files to release
