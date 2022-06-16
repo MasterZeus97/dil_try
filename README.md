@@ -1,4 +1,9 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/dil-classroom/projet-rausis_seem_maier_ahmed.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dil-classroom/projet-rausis_seem_maier_ahmed/alerts/) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/dil-classroom/projet-rausis_seem_maier_ahmed.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dil-classroom/projet-rausis_seem_maier_ahmed/context:java)
+
+# Remarque:
+Repo de test pour la release automatique du projet de DIL
+
+
 # Jamstack - générateur de site statique
 
 Ce projets est réalisé dans le cadre du cours "Processus de développement en ingénierie logicielle" de la HEIG-VD.
