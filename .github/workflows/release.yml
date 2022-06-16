@@ -39,4 +39,3 @@ jobs:
             javadoc.zip 
             LICENSE 
             *.jar
-            monSite.zip
